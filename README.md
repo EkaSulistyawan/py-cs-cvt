@@ -1,5 +1,5 @@
 # Important
-BASE ALPINE
+BASE UBUNTU 20.04
 
 # Useful Docker Setup
 https://www.youtube.com/watch?v=gAkwW2tuIqE&t=525s
