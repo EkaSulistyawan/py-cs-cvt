@@ -5,9 +5,11 @@
 - Tested on Windows
 
 ⚠️ You may need to alter the Dockerfile if you use different version than these
+
 ⚠️ Don't change the filename! Unless you understand which parts of the code that need to be adjusted
   - CurveLab filename: `CurveLab-2.1.3.tar.gz`
   - FFTW filename: `fftw-2.1.5.tar.gz`
+
 ⚠️ Soon be published on Docker hub
 
 # How to install?
