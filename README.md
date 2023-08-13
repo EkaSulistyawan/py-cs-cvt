@@ -1,13 +1,20 @@
 # Pre-requisite
-- 🐳Docker: [Download here](https://www.docker.com/products/docker-desktop/)
+- 🐳Docker (any version): [Download here](https://www.docker.com/products/docker-desktop/)
+- ⚙️Curvelet 2.1.3: [Download here](http://curvelet.org/)
+- ⚙️FFTW 2.1.5: [Download here](https://www.fftw.org/download.html) 
 - Tested on Windows
 
-⚠️Soon be published on Docker hub
+⚠️ You may need to alter the Dockerfile if you use different version than these
+⚠️ Don't change the filename! Unless you understand which parts of the code that need to be adjusted
+  - CurveLab filename: `CurveLab-2.1.3.tar.gz`
+  - FFTW filename: `fftw-2.1.5.tar.gz`
+⚠️ Soon be published on Docker hub
 
 # How to install?
 1) Run Docker on your machine
 2) Clone the repo
-3) Rebuild the image
+3) Download the Curvelet and FFTW, put the `tar.gz` in the same folder
+4) Rebuild the image
 
 ⚠️ make sure you're in the same folder!
 ~~~
