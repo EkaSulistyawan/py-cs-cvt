@@ -42,6 +42,16 @@ docker run -it -p 8888:8888 <the container tag>
 
 Since the image was wrapped as Jupyter notebook, you can copy-paste the link to a browser.
 
+# What's inside the py_cs_cvt?
+- find the wrapped CS-CVT at the bottom of the Jupyter notebook
+- For the example, just run the whole notebook at once
+
+# Reference
+
+~~~
+I. G. E. Sulistyawan, D. Nishimae, T. Ishii and Y. Saijo, "Utilization of Curvelet Transform in Reconstructing Cellular Images for Undersampled Optical-resolution Photoacoustic Microscopy," in IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, doi: 10.1109/TUFFC.2023.3272917.
+~~~
+
 # Additional tutorial
 - (Docker tutorial) https://www.youtube.com/watch?v=gAkwW2tuIqE&t=525s
 - (Curvelops Installation) https://pylops.github.io/curvelops/installation.html#requirements
