@@ -23,7 +23,10 @@ RUN sed -i -e 's/\r$//' install_curvelops.sh
 RUN ./install_curvelops.sh
 
 # Install Jupyter notebook
+RUN pip install seaborn
+RUN pip install scikit-learn
 RUN pip install jupyter
+
 
 # Move to app directory
 WORKDIR /app
