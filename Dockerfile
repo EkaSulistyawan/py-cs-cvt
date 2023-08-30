@@ -27,7 +27,8 @@ RUN pip install seaborn
 RUN pip install scikit-learn
 RUN pip install jupyter
 
-
 # Move to app directory
 WORKDIR /app
+COPY *.ipynb .
+COPY *.tif .
 CMD ["jupyter","notebook","--allow-root","--ip","0.0.0.0","--port","8888"]
