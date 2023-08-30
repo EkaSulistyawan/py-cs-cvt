@@ -11,12 +11,15 @@ WORKDIR /installation
 COPY * .
 
 # Install FFTW
+RUN sed -i -e 's/\r$//' install_fftw.sh
 RUN ./install_fftw.sh
 
 # Install CurveLab
+RUN sed -i -e 's/\r$//' install_curvelet.sh
 RUN ./install_curvelet.sh
 
 # Install Curvelops
+RUN sed -i -e 's/\r$//' install_curvelops.sh
 RUN ./install_curvelops.sh
 
 # Install Jupyter notebook
