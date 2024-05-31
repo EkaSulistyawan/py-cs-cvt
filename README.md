@@ -10,8 +10,6 @@
   - CurveLab filename: `CurveLab-2.1.3.tar.gz`
   - FFTW filename: `fftw-2.1.5.tar.gz`
 
-⚠️ Soon be published on Docker hub
-
 # How to install?
 1) Run Docker on your machine
 2) Clone the repo
