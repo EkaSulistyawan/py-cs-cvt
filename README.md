@@ -1,3 +1,5 @@
+![](https://github.com/EkaSulistyawan/py-cs-cvt/blob/main/cs-cvt.gif)
+
 # Pre-requisite
 - 🐳Docker (any version): [Download here](https://www.docker.com/products/docker-desktop/)
 - ⚙️Curvelet 2.1.3: [Download here](http://curvelet.org/)
